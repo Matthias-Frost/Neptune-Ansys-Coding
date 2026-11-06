@@ -1,0 +1,46 @@
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---- Fluent outputs (large / machine-specific) ----
+*.cas
+*.dat
+*.cas.h5
+*.dat.h5
+*.cas.gz
+*.dat.gz
+*.msh
+*.msh.h5
+*.msh.gz
+*.trn
+*.log
+*.out
+cleanup-fluent-*.bat
+cleanup-fluent-*.sh
+fluent-*.trn
+
+# Results folders written by scripts
+results/
+output/
+
+# ---- Mechanical / Workbench ----
+*_files/
+*.mechdb
+*.wbpj
+*.rst
+
+# ---- OS / editor clutter ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ---- Exceptions ----
+# Small shared meshes we deliberately commit go in models/<model>/mesh/ and are
+# force-added by the repo lead only:  git add -f models/<model>/mesh/<file>

@@ -1,0 +1,12 @@
+# Packages for this repo. Everyone installs from this file:
+#     python -m pip install -r requirements.txt
+#
+# Our Fluent is 2023 R1 (v231). PyFluent 0.38+ only supports Fluent 2024 R2 and newer,
+# so ansys-fluent-core MUST be pinned to an older version that works with 2023 R1.
+#
+# REPO LEAD: before sharing the repo, replace this whole file with the output of
+#     python -m pip freeze > requirements.txt
+# run from your working PyFluent venv (the one that ran the mixing elbow).
+# Until then, the line below fails on purpose so nobody installs the wrong version.
+
+ansys-fluent-core==REPLACE_WITH_WORKING_VERSION
