@@ -139,6 +139,8 @@ You should see a version number and your name.
 
 1. In VS Code open a terminal: **Terminal → New Terminal** (or `` Ctrl+` ``).
    It should be **PowerShell** and already in the repo folder.
+    **Make sure the prompt ends in `Neptune-Ansys-Coding>`.** If it shows `C:\Users\<you>>` instead,
+      VS Code has the wrong folder open: use **File → Open Folder…** and pick the repo folder.
 2. Create the venv with Python 3.10:
 
 ```powershell
