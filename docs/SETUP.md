@@ -120,7 +120,7 @@ You should see a version number and your name.
 1. In VS Code press `Ctrl+Shift+P` (the **Command Palette**) and run **Git: Clone**.
 2. Choose **Clone from GitHub**. A browser window opens; sign in and **authorize VS Code**.
 3. Pick this repository from the list.
-4. Choose a parent folder, for example `C:\Users\<you>\`. VS Code creates the `ansys-automation`
+4. Choose a parent folder, for example `C:\Users\<you>\`. VS Code creates the `Neptune-Ansys-Coding`
    folder inside it.
 5. When asked, click **Open** (and **Yes, I trust the authors**).
 
@@ -128,7 +128,7 @@ You should see a version number and your name.
 > - **Avoid OneDrive folders** (Desktop/Documents are often synced). OneDrive fights with the
 >   thousands of small files in `.venv` and Fluent's output files.
 > - **Avoid spaces and special characters** in the path. Fluent can have trouble with them.
->   `C:\Users\you\ansys-automation` is good.
+>   `C:\Users\you\Neptune-Ansys-Coding` is good.
 
 ✅ **Check:** The VS Code Explorer (left sidebar) shows `README.md`, `requirements.txt`, `docs`,
 `scripts`, and `models`.

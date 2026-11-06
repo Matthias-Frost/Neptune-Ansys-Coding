@@ -1,4 +1,4 @@
-# Ansys Automation
+# Neptune Ansys Coding
 
 Python scripts that automate **Ansys Fluent** (and later **Static Structural**) using
 [PyFluent](https://fluent.docs.pyansys.com/). The goal is to set up, run, and post-process
@@ -33,7 +33,7 @@ Everyone uses the same versions so a script that runs on one machine runs on all
 ## Repo layout
 
 ```
-ansys-automation/
+Neptune-Ansys-Coding/
 ├── README.md              ← you are here
 ├── requirements.txt       ← exact package versions everyone installs
 ├── docs/

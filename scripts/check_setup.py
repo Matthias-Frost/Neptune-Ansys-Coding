@@ -164,7 +164,7 @@ def main() -> int:
     args = parser.parse_args()
 
     print("=" * 64)
-    print("Ansys Automation - setup check")
+    print("Neptune Ansys Coding - setup check")
     print(f"Repo: {REPO_ROOT}")
     print(f"Python executable: {sys.executable}")
     print("=" * 64)
